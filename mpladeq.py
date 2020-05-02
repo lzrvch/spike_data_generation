@@ -56,7 +56,7 @@ def beautify_mpl(fontsize=16, figsize=(10, 8), dark_mode=False):
     mpl.rcParams.update(params)
     if dark_mode:
         plt.style.use('dark_background')
-    plt.style.use('seaborn-pastel')
+    plt.style.use('seaborn-bright')
     sns.set_color_codes()
 
 
